@@ -4,6 +4,7 @@ function ListaInstrumentosTabela () {
 
     return (
         <>
+        <h1>Lista Instrumentos Tabela</h1>
         
         </>
     );
