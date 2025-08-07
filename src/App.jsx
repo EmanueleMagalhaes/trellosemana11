@@ -11,13 +11,13 @@ function App() {
     
     <Routes>
       <Route path='/' Component={Home}> </Route>
-      <Route path='/ListaInstrumentosCards' Component={ListaInstrumentosCards}></Route>
-      <Route path='/ListaInstrumentosTabela' Component={ListaInstrumentosTabela}></Route>
+      <Route path='/Cards' Component={ListaInstrumentosCards}></Route>
+      <Route path='/Tabela' Component={ListaInstrumentosTabela}></Route>
     </Routes>
     
       
   
-  )
+  );
 }
 
 export default App
