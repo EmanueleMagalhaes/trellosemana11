@@ -1,4 +1,4 @@
-import { use } from 'react';
+import React from 'react';
 import './ListaInstrumentosTabela.css';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
