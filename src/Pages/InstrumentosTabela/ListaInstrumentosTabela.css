@@ -25,6 +25,11 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.12);
 }
 
+.btn:hover {
+  color: rgb(122, 152, 177); /* cor do texto muda ao passar o mouse */
+  background-color: #0056b3; /* cor de fundo muda ao passar o mouse */
+}
+
 .titulo {
   text-align: center;
   margin-bottom: 18px;

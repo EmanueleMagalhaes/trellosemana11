@@ -1,5 +1,7 @@
 import { use } from 'react';
-import './ListaInstrumentosTabela.css'
+import './ListaInstrumentosTabela.css';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function ListaInstrumentosTabela () {
     const [equipamentos, setEquipamentos] = useState([]);
